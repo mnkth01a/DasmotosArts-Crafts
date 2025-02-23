@@ -1,52 +1,33 @@
 /* Main style sheet for Desmoto's Arts & Crafts website */
-
-html {
-   font-size: 8rem;
-}
-
-body {
-   font-size: 1.6rem;
-   font-family: 'Open Sans', sans-serif;
-   color: #333;
-   background-color:lightslategray;
-   margin: 0;
-   padding: 0;
-}
-
-header {
-   background-color: #333;
-   color: #fff;
-   padding: 1rem;
-   text-align: center;
-}
-
-main {
-   padding: 2rem;
-}
-
-footer {
-   background-color: #333;
-   color: #fff;
-   text-align: center;
-   padding: 1rem;
-   position: fixed;
-   width: 100%;
-   bottom: 0;
+h1, h2, h3, p {
+   font-family: Helvetica;
 }
 
 h1 {
-   font-family: Helvetica;
-   font-size: 100px;
-   font-weight: bold;
-   color: khaki;
+   background-image: url("../images/pattern.jpeg");
    text-align: center;
-   margin: 0 0 1rem;
+   font-size: 100px;
+   color: khaki;
 }
 
-h2 {
-   font-family: Helvetica;
+.item h2 {
    font-size: 32px;
-   font-weight: bold;
    color: white;
 }
 
+#brush {
+   background-color: mediumspringgreen;
+}
+
+#frame {
+   background-color: lightcoral;
+}
+
+#paint {
+   background-color: skyblue;
+}
+
+.price {
+   color: blue;
+   font-weight: bold;
+}
