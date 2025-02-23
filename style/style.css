@@ -10,7 +10,7 @@ h1 {
    color: khaki;
 }
 
-.item h2 {
+h2.item {
    font-size: 32px;
    color: white;
 }
@@ -31,3 +31,12 @@ h1 {
    color: blue;
    font-weight: bold;
 }
+
+.product_img {
+   margin-left: auto;
+}
+
+.descr {
+   font-size: larger;
+}
+
